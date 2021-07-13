@@ -24,9 +24,11 @@ class User(Resource):
     def delete(self, user_id):
         return f'DELETE User: {user_id}'
 
+
 class UserList(Resource):
     def get(self):
         return user_data
+
 
 api.add_resource(User, '/api/user/<string:user_id>')
 api.add_resource(UserList, '/')
