@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "123465",
+      "name": "John Smith",
+      "location": "Dublin"
+    },
+    {
+      "id": "456789",
+      "name": "Jane Smith",
+      "location": "Belfast"
+    },
+    {
+      "id": "qwertyuiop",
+      "name": "Bill Smith",
+      "location": "Derry"
+    },
+    {
+      "id": "poiuytrewq",
+      "name": "Mary Smith",
+      "location": "Galway"
+    }
+  ]
+}
