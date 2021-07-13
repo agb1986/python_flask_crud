@@ -8,4 +8,4 @@ echo 'Pulling dependencies'
 pip install -r requirements.txt;
 
 echo 'Starting Flask server'
-flask run | pytest test.py;
+flask run | pytest tests/test.py;
