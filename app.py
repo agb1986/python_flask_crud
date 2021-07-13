@@ -56,7 +56,7 @@ class User(Resource):
             if d['id'] == user_id:
                 user_data['users'].remove(d)
                 write_data(user_data)
-                return f'User deleted: {user_id}'
+                return f'User deleted: {user_id}', 204
         else:
             return f'User does not exist: {user_id}', 404
 
