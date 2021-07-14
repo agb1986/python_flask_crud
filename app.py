@@ -1,9 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 
-from src.user import User
-from src.user_create import UserCreate
-from src.user_list import UserList
+from src import User, UserCreate, UserList
 
 app = Flask(__name__)
 api = Api(app)
